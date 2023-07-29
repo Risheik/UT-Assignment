@@ -1,0 +1,151 @@
+
+.background-color {
+  background-color: #ffdac9;
+  background-image: url("src/assets/imgs/premium_photo-1686538381343-ff6de76c8712.avif");
+  background-size: 800px 500px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.logo {
+  font: normal normal bold 28px/52px DIN Condensed;
+  color: #333333;
+  opacity: 1;
+}
+
+.heading {
+  font: normal normal bold 18px/52px DIN Condensed;
+  letter-spacing: 0.18px;
+  color: #333333;
+  opacity: 1;
+}
+
+#navbar {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+.logo-icon {
+  left: 337px;
+  top: 125px;
+  position: absolute;
+}
+.scroll-section {
+  position: sticky;
+  top: 287px;
+}
+.request-info-section {
+  position: fixed;
+  right: 0px;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+}
+
+.selected-section {
+  text-decoration: line-through;
+  font-size: 18px;
+}
+.font-best-exp {
+  color: white;
+  font-size: 50px;
+  line-height: 45px;
+  max-width: 480px;
+  text-align: center;
+}
+.font-london {
+  color: white;
+  font-size: 35px;
+  text-align: center;
+}
+
+.rotate {
+  transform: rotate(180deg);
+  writing-mode: vertical-rl;
+}
+
+.request-info {
+  font-family: DIN Condensed;
+  background-color: white;
+  font-size: 18px;
+  height: 100px;
+  width: 30px;
+  font-size: 13px;
+}
+
+.scroll-track {
+  font-family: DIN Condensed;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.know-more {
+  font-family: DIN Condensed;
+  background-color: #ffdac9;
+  width: 105px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.our-menu {
+  font-family: DIN Condensed;
+  font-size: 46px;
+}
+
+.font-size-46 {
+  font-size: 46px;
+}
+.border-right {
+  border-right: 1px solid grey;
+}
+.border-left {
+  border-left: 1px solid grey;
+}
+.overlap {
+  z-index: 20;
+  background-color: white;
+}
+.main-course {
+  margin-left: -13px;
+  max-width: 249px;
+  line-height: 44px;
+}
+
+.main-course-section {
+  z-index: 19;
+  background-color: white;
+}
+
+.sides {
+  margin-left: -12px;
+  z-index: 10;
+  margin-top: 60px;
+}
+
+.starters-items {
+  max-width: 500px;
+}
+.menu-heading {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.menu-details {
+  line-height: 21px;
+  font-size: 13px;
+  max-width: 125px;
+}
+
+.starters-price {
+  font-size: 20px;
+  border: 1px solid black;
+  font-family: DIN Condensed;
+  width: 60px;
+}
+
+.width-300{
+    width: 300px;
+}
